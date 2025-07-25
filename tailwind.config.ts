@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				farm: {
+					green: 'hsl(var(--farm-green))',
+					yellow: 'hsl(var(--farm-yellow))',
+					'light-green': 'hsl(var(--farm-light-green))',
+					'dark-green': 'hsl(var(--farm-dark-green))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

@@ -17,24 +17,40 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Green primary from #69eb60 */
+    --primary: 115 82% 65%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Yellow secondary from #f2f26f */
+    --secondary: 60 83% 69%;
+    --secondary-foreground: 222.2 84% 4.9%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 115 82% 65%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 115 82% 65%;
+
+    /* Farm theme colors */
+    --farm-green: 115 82% 65%;
+    --farm-yellow: 60 83% 69%;
+    --farm-light-green: 115 40% 95%;
+    --farm-dark-green: 115 82% 45%;
+
+    /* Gradients */
+    --gradient-farm: linear-gradient(135deg, hsl(var(--farm-green)), hsl(var(--farm-yellow)));
+    --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--farm-light-green)));
+
+    /* Shadows */
+    --shadow-farm: 0 10px 30px -10px hsl(var(--farm-green) / 0.3);
+    --shadow-card: 0 4px 12px -2px hsl(var(--farm-green) / 0.1);
 
     --radius: 0.5rem;
 
